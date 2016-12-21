@@ -1,3 +1,5 @@
+This is part of a Udacity course on Git/GitHub I'm doing.
+
 #How does viewing a diff between two versions of a file help me see a bug that was introduced?
 
 It reduces the necessary amount of time to fix a problem, allowing the programmer to compare 2 version of the code, for instance, a version that worked and a more recent version that doesn't work or that contains some bug. The programmer can then compare the two versions, see what changed and find the bug with more ease, since its very likely that the bug is in some of the lines that were modified.
