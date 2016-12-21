@@ -1,16 +1,14 @@
-How does viewing a diff between two versions of a file help me see a bug that was introduced?
+#How does viewing a diff between two versions of a file help me see a bug that was introduced?
 
 It reduces the necessary amount of time to fix a problem, allowing the programmer to compare 2 version of the code, for instance, a version that worked and a more recent version that doesn't work or that contains some bug. The programmer can then compare the two versions, see what changed and find the bug with more ease, since its very likely that the bug is in some of the lines that were modified.
 
 ===
-
-How could having easy access to the entire history of a file make me a more efficient programmer in the long term?
+#How could having easy access to the entire history of a file make me a more efficient programmer in the long term?
 
 If I made a mistake I can go back to a previous working version or I can compare a working version with a non-working version and see what's differet and possibily spot the bug (easier than trying to figure out what is wrong in the non-working version without any kind of comparison).
 
 ===
-
-As a programmer, when would I want to have a version of my code saved?
+#As a programmer, when would I want to have a version of my code saved?
 
 Sometimes I might make an important change and forget to save a version with the new important change, so in this case, it would be useful for my VCS to automatically save it for me.
 
