@@ -28,5 +28,5 @@ Manual - Cons:
 - Risk of forgetting to commit and continue to make changes, making the changes bigger and possibly unrelated for the next commit.
 - Consumes slight more time than automatic VCS.
 
-Automatic pros and cons are opposite to the Manual pros and cons.
+Automatic pros and cons are opposite to the manual pros and cons.
 
