@@ -21,7 +21,7 @@ I think the best option is for the programmer to manually save and to create the
 
 Manual - Pros:
 - Control over version history.
-- Control over message associated with commit, explaining it.
+- Control over message associated with commit, explaining what the commit is about.
 - Control over which changes to commit.
 
 Manual - Cons:
