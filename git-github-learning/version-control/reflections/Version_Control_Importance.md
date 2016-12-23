@@ -44,4 +44,4 @@ So, tracking multiple files at once, is helpful so that you don't create conflic
 
 with git log I can see the history of all commits, their IDs, authors, date/time and message. Using the flag --stat will also show me the names of the files changed and how many they are and the amount of modifications (insertions and deletions) for each file.
 
-with gif diff I can compare two commits to see how many modifications were made (insertions and deletions) and what exactly was modified
+with gif diff I can compare two commits to see how many modifications were made (insertions and deletions) and what exactly was modified (I can see the lines itself)
