@@ -9,6 +9,8 @@ It reduces the necessary amount of time to fix a problem, allowing the programme
 
 If I made a mistake I can go back to a previous working version or I can compare a working version with a non-working version and see what's differet and possibily spot the bug (easier than trying to figure out what is wrong in the non-working version without any kind of comparison).
 
+It makes me, as a programmer, less scared to try something new, because I know that even if I mess up, I can always go back to a previous commit or just check-out the changes I made and compare using git diff to see the diferences between a working commit and a non-working commit, giving me a better perspective of the code and specially the modification in the commit so I can more easily spot the bug.
+
 ===
 #As a programmer, when would I want to have a version of my code saved?
 
