@@ -38,3 +38,10 @@ Because some projects have multiple files inter-connected. This means that a mod
 For ex.: If you have a variable defined in one file and used in other files and you change that variable name, you will need to make that change in all the other files.
 
 So, tracking multiple files at once, is helpful so that you don't create conflicts frequently when changing these types of variables.
+
+===
+#How can I use the commands git log and git diff to view the history of files?
+
+with git log I can see the history of all commits, their IDs, authors, date/time and message. Using the flag --stat will also show me the names of the files changed and how many they are and the amount of modifications (insertions and deletions) for each file.
+
+with gif diff I can compare two commits to see how many modifications were made (insertions and deletions) and what exactly was modified
