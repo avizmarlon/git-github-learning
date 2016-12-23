@@ -45,3 +45,18 @@ So, tracking multiple files at once, is helpful so that you don't create conflic
 with git log I can see the history of all commits, their IDs, authors, date/time and message. Using the flag --stat will also show me the names of the files changed and how many they are and the amount of modifications (insertions and deletions) for each file.
 
 with gif diff I can compare two commits to see how many modifications were made (insertions and deletions) and what exactly was modified (I can see the lines itself)
+
+===
+#How might using version control make me more confident to make changes that could break something?
+
+VCS allow me to "go back in time" by giving me the option to make the repository (where the project files are) become what it was at the time of a specific commit.
+
+So if I have 100 commits and I have a bug, I can go back to the 90th commit and the bug still exists it can mean a few things:
+
+1. This commit introduced the bug.
+2. All following commits will likely have the bug as well, unless I coincidentally changed something in the code that removed the bug.
+3. The bug was introduced in an older commit.
+
+Well, I can't assume its 1. or 2. I have to go to an older commit until I find one that doesn't have the bug so that I know exactly which commit introduced the bug.
+
+If I keep going sequentially to an older commit, I will eventually find a commit that doesn't have the bug. When this happens, I will know that the bug is in the commit that came after the commit that doesn't have the bug.
