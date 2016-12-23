@@ -30,3 +30,11 @@ Manual - Cons:
 
 Automatic pros and cons are opposite to the manual pros and cons.
 
+===
+#Why is it important to be able to save many files at once with one commit instead of being limited to 1 file save by commit?
+
+Because some projects have multiple files inter-connected. This means that a modification in one of the files of such project is very likely to make necessary a change in the other files.
+
+For ex.: If you have a variable defined in one file and used in other files and you change that variable name, you will need to make that change in all the other files.
+
+So, tracking multiple files at once, is helpful so that you don't create conflicts frequently when changing these types of variables.
