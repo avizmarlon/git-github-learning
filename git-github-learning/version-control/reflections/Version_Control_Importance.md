@@ -64,3 +64,9 @@ So if I have 100 commits and I have a bug, I can go back to the 90th commit and 
 Well, I can't assume its 1. or 2. I have to go to an older commit until I find one that doesn't have the bug so that I know exactly which commit introduced the bug.
 
 If I keep going sequentially to an older commit, I will eventually find a commit that doesn't have the bug. When this happens, I will know that the bug is in the commit that came after the commit that doesn't have the bug.
+
+===
+#What do I use Git for?
+
+To access, control and manipulate the versions of a project, as well as contributing and collaborating with other programmers.
+
