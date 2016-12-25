@@ -1,6 +1,14 @@
 /*
  * Meu CSS */
 
+.bg-image {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -101;
+}
+
+
 .white-font {
 	color: #CCC;
 }
@@ -66,6 +74,7 @@ video {
     transform: translateX(-50%) translateY(-50%);
   	background-size: cover;
   	transition: 1s opacity;
+  	opacity: 0.4;
 }
 audio:not([controls]) {
   display: none;
