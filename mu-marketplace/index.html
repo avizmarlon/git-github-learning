@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<html lang="us">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--
+		 Edit/Add/Delete the fonts here, by following the pattern 
+		 in the below <link> tag, ex.:
+		 "Font1-word1+Font1-word2 | Font2-word1+Font2-word2".
+		 Check font availability in fonts.googleapis.com
+		-->
+		<link href="https://fonts.googleapis.com/css?family=Fauna+One|Josefin+Slab|Nixie+One" rel="stylesheet" type="text/css">
+		<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> -->
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<!-- <link href="main.js" rel="javascript" type="text/javascript"> -->
+	</head>
+
+	<body>
+
+		<video id="bgvid" playsinline autoplay muted loop>
+			<source src="black-bg.mp4">
+		</video>
+
+	<div class="container-fluid white-font">
+
+		<!-- Top header and subheader -->
+		<div>
+		<h1 class="myfont1">Mu Global - Negocie seus items aqui</h1>
+		<h2 class="myfont2">É muito simples.</h2>
+		</div>
+
+		<!-- Author message -->
+		<div class="text-right">
+			<p>criado por Marlon Aviz<br>
+			para ser usado gratuitamente<br>
+			pela comunidade MU</p>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+
+			<!-- Coluna comprar -->
+			<div class="col-md-6">
+			<form class="white-font" action="/comprar">
+				<h3 class="text-center">Comprar</h3>
+				<div class="well">
+					<input class="form-control form-group" type="text" placeholder="Nome do item">
+					<h4>Classes</h4>
+					<div class="form-group checkbox">
+					<div><label><input type="checkbox" name="mu-class">AE</label></div>
+					<div><label><input type="checkbox" name="mu-class">BK</label></div>
+					<div><label><input type="checkbox" name="mu-class">SM</label></div>
+					<div><label><input type="checkbox" name="mu-class">DL</label></div>
+					<div><label><input type="checkbox" name="mu-class">MG</label></div>
+					<div><label><input type="checkbox" name="mu-class">SUMM</label></div>
+					<div><label><input type="checkbox" name="mu-class">RF</label></div>
+					<div><label><input type="checkbox" name="mu-class">GL</label></div>
+					</div>
+					<label><input class="btn btn-success" type="submit" value="Pesquisar"></label>
+					<label><input class="btn btn-danger" type="reset" value="Resetar"></label>
+				</div>
+			</form>
+			</div>
+
+			<!-- Coluna Vender -->
+			<div class="col-md-6">
+			<form class="white-font" action="/vender">
+				<h3 class="text-center">Vender</h3>
+				<div class="well">
+					<input class="form-control form-group" type="text" placeholder="Nome do item">
+					<h4>Classes</h4>
+					<div class="form-group checkbox">
+					<div><label><input type="checkbox" name="mu-class">AE</label></div>
+					<div><label><input type="checkbox" name="mu-class">BK</label></div>
+					<div><label><input type="checkbox" name="mu-class">SM</label></div>
+					<div><label><input type="checkbox" name="mu-class">DL</label></div>
+					<div><label><input type="checkbox" name="mu-class">MG</label></div>
+					<div><label><input type="checkbox" name="mu-class">SUMM</label></div>
+					<div><label><input type="checkbox" name="mu-class">RF</label></div>
+					<div><label><input type="checkbox" name="mu-class">GL</label></div>
+					</div>
+					<label><input class="btn btn-success" type="submit" value="Pesquisar"></label>
+					<label><input class="btn btn-danger" type="reset" value="Resetar"></label>
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	</body>
+</html>
