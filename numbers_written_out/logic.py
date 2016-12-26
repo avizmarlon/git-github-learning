@@ -9,17 +9,17 @@ except ValueError:
     exit()
 
 # breaks the number into "smaller pieces" to easily work with the dict (e.g.: 435 becomes 400+30+5)
-num_decimals = []
+simple_numbers = []
 c = 0
 for character in number:
     current_iteration_number = number[c:]
-    decimal_number = character + ('0' * (len(current_iteration_number) - 1))
+    simple_number = character + ('0' * (len(current_iteration_number) - 1))
     c += 1
-    num_decimals.append(int(decimal_number))
+    simple_numbers.append(int(simple_number))
 
 # print the extensive form, number by number (iterated through the list of decimal numbers)
-for decimal_number in num_decimals:
-    print(ext_nums[decimal_number], end=' ')
+for simple_number in simple_numbers:
+    print(ext_nums[simple_number], end=' ')
 
 
 
