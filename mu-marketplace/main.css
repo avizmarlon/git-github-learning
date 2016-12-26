@@ -1,6 +1,10 @@
 /*
  * Meu CSS */
 
+.aliased-font {
+	-webkit-font-smoothing: antialiased;
+}
+
 .bg-image {
   position: fixed;
   top: 0px;
