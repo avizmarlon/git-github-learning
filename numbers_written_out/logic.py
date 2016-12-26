@@ -1,5 +1,9 @@
 from ext_nums_data import *
 
+# todo.*add hyphen in the extensive form of some numbers
+# todo.* make it scalable to even bigger numbers
+# maybe wrap all the code into a function to be used by other scripts
+
 # take the input, check if its a valid integer
 # also eliminates redundant zeroes in case of something like 01 or 00001
 number = input("Type the number to be written out: ")
