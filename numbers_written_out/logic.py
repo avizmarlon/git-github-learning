@@ -1,12 +1,16 @@
 from ext_nums_data import *
 
 # take the input, check if its a valid integer
+# also eliminates redundant zeroes in case of something like 01 or 00001
 number = input("Type the number to be written out: ")
 try:
-    int(number)
+    number = int(number)
 except ValueError:
     print("Your input was not an integer!")
     exit()
+
+# converts back to str to be iterable
+number = str(number)
 
 # breaks the number into "smaller pieces" to easily work with the dict (e.g.: 435 becomes 400+30+5)
 simple_numbers = []
@@ -24,7 +28,7 @@ for simple_number in simple_numbers:
 
 
 
-# testing string format for output (NOT FINISHED)
-# '{num1}{num2}{num3}'.format(num1=ext_nums[num_decimals[0]],
-#                             num2=ext_nums[num_decimals[1]],
-#                             num3=ext_nums[num_decimals[2]])
+# testing string format for output of 3-characters number (NOT FINISHED)
+# '{num1}{num2}{num3}'.format(num1=ext_nums[simple_numbers[0]],
+#                             num2=ext_nums[simple_numbers[1]],
+#                             num3=ext_nums[simple_numbers[2]])
