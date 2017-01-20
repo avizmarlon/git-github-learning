@@ -1,21 +1,21 @@
 # Basic Commands
 
-git init:
+`git init:`
 
-git commit [-m]
+`git commit [-m]`
 
-git status
+`git status`
 
-git log [--stat]
+`git log [--stat]`
 
-git add
+`git add`
 
-git diff [commit or file 1] [commit or file 2]
+`git diff [commit or file 1] [commit or file 2]`
 
-git push [origin] [branch]
+`git push [origin] [branch]`
 
-git pull [origin] [branch]
+`git pull [origin] [branch]`
 
-git remote [-v]
+`git remote [-v]`
 
-git branch [branch_name]
+`git branch [branch_name]`
