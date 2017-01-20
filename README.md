@@ -2,14 +2,14 @@
 
 ### Table of Contents
 
-- [How does viewing a diff between two versions of a file help me see a bug that was introduced?](how-does-viewing-a-diff-between-two-versions-of-a-file-help-me-see-a-bug-that-was-introduced)
-- [How could having easy access to the entire history of a file make me a more efficient programmer in the long term?](how-could-having-easy-access-to-the-entire-history-of-a-file-make-me-a-more-efficient-programmer-in-the-long-term)
-- [As a programmer, when would I want to have a version of my code saved?](as-a-programmer--when-would-i-want-to-have-a-version-of-my-code-saved)
-- [Pros and cons of manually creating commits vs automatically creating commits](pros-and-cons-of-manually-creating-commits-vs-automatically-creating-commits)
-- [Why is it important to be able to save many files at once with one commit instead of being limited to 1 file save by commit?](why-is-it-important-to-be-able-to-save-many-files-at-once-with-one-commit-instead-of-being-limited-to-1-file-save-by-commit)
-- [How can I use the commands git log and git diff to view the history of files?](how-can-i-use-the-commands-git-log-and-git-diff-to-view-the-history-of-files)
-- [How might using version control make me more confident to make changes that could break something?](how-might-using-version-control-make-me-more-confident-to-make-changes-that-could-break-something)
-- [What do I use Git for?](what-do-i-use-git-for)
+- [How does viewing a diff between two versions of a file help me see a bug that was introduced?](#how-does-viewing-a-diff-between-two-versions-of-a-file-help-me-see-a-bug-that-was-introduced)
+- [How could having easy access to the entire history of a file make me a more efficient programmer in the long term?](#how-could-having-easy-access-to-the-entire-history-of-a-file-make-me-a-more-efficient-programmer-in-the-long-term)
+- [As a programmer, when would I want to have a version of my code saved?](#as-a-programmer--when-would-i-want-to-have-a-version-of-my-code-saved)
+- [Pros and cons of manually creating commits vs automatically creating commits](#pros-and-cons-of-manually-creating-commits-vs-automatically-creating-commits)
+- [Why is it important to be able to save many files at once with one commit instead of being limited to 1 file save by commit?](#why-is-it-important-to-be-able-to-save-many-files-at-once-with-one-commit-instead-of-being-limited-to-1-file-save-by-commit)
+- [How can I use the commands git log and git diff to view the history of files?](#how-can-i-use-the-commands-git-log-and-git-diff-to-view-the-history-of-files)
+- [How might using version control make me more confident to make changes that could break something?](#how-might-using-version-control-make-me-more-confident-to-make-changes-that-could-break-something)
+- [What do I use Git for?](#what-do-i-use-git-for)
 
 VCS = Version Control System
 
