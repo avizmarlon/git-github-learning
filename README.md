@@ -17,14 +17,12 @@ VCS = Version Control System
 
 It reduces the necessary amount of time to fix a problem, allowing the programmer to compare 2 version of the code, for instance, a version that worked and a more recent version that doesn't work or that contains some bug. The programmer can then compare the two versions, see what changed and find the bug with more ease, since its very likely that the bug is in some of the lines that were modified.
 
-===
 ## How could having easy access to the entire history of a file make me a more efficient programmer in the long term?
 
 If I made a mistake I can go back to a previous working version or I can compare a working version with a non-working version and see what's differet and possibily spot the bug (easier than trying to figure out what is wrong in the non-working version without any kind of comparison).
 
 It makes me, as a programmer, less scared to try something new, because I know that even if I mess up, I can always go back to a previous commit or just check-out the changes I made and compare using git diff to see the diferences between a working commit and a non-working commit, giving me a better perspective of the code and specially the modification in the commit so I can more easily spot the bug.
 
-===
 ## As a programmer, when would I want to have a version of my code saved?
 
 Sometimes I might make an important change and forget to save a version with the new important change, so in this case, it would be useful for my VCS to automatically save it for me.
@@ -33,7 +31,6 @@ But saving at every edit, I think, would consume unnecessary memory. I don't kno
 
 I think the best option is for the programmer to manually save and to create the habit of always saving the current version when he/she judges necessary, like after an important modification in the code.
 
-===
 ## Pros and cons of manually creating commits vs automatically creating commits
 
 Manual - Pros:
@@ -47,7 +44,6 @@ Manual - Cons:
 
 Automatic pros and cons are opposite to the manual pros and cons.
 
-===
 ## Why is it important to be able to save many files at once with one commit instead of being limited to 1 file save by commit?
 
 Because some projects have multiple files inter-connected. This means that a modification in one of the files of such project is very likely to make necessary a change in the other files.
@@ -56,14 +52,12 @@ For ex.: If you have a variable defined in one file and used in other files and 
 
 So, tracking multiple files at once, is helpful so that you don't create conflicts frequently when changing these types of variables.
 
-===
 ## How can I use the commands git log and git diff to view the history of files?
 
 with git log I can see the history of all commits, their IDs, authors, date/time and message. Using the flag --stat will also show me the names of the files changed and how many they are and the amount of modifications (insertions and deletions) for each file.
 
 with gif diff I can compare two commits to see how many modifications were made (insertions and deletions) and what exactly was modified (I can see the lines itself)
 
-===
 ## How might using version control make me more confident to make changes that could break something?
 
 VCS allow me to "go back in time" by giving me the option to make the repository (where the project files are) become what it was at the time of a specific commit.
@@ -78,7 +72,6 @@ Well, I can't assume its 1. or 2. I have to go to an older commit until I find o
 
 If I keep going sequentially to an older commit, I will eventually find a commit that doesn't have the bug. When this happens, I will know that the bug is in the commit that came after the commit that doesn't have the bug.
 
-===
 ## What do I use Git for?
 
 To access, control and manipulate the versions of a project, as well as contributing and collaborating with other programmers.
