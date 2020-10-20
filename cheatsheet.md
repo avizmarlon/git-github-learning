@@ -1,6 +1,6 @@
 # Basic Commands
 
-`git init:`
+`git init`
 
 `git commit [-m]`
 
